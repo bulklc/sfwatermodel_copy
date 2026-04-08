@@ -1,0 +1,254 @@
+[
+  {
+    "properties": {
+      "name": "penstock_AB_head_valve_002",
+      "size": 96,
+      "type": "butterfly",
+      "setting": 0,
+      "status": "1",
+      "elev": 1974
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        16,
+        7
+      ],
+      "geographic": [
+        -120.28907469520915,
+        37.8137103259356
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_CD_head_valve_002",
+      "size": 96,
+      "type": "butterfly",
+      "setting": 0,
+      "status": "1",
+      "elev": 1974
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        16,
+        3
+      ],
+      "geographic": [
+        -120.28902907793542,
+        37.81366847531282
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_crossover_BC_001",
+      "size": 48,
+      "type": "gate",
+      "setting": 0,
+      "status": "0",
+      "elev": 1111
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        5.5,
+        5
+      ],
+      "geographic": [
+        -120.2958168912553,
+        37.81089965420675
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_crossover_BC_002",
+      "size": 48,
+      "type": "gate",
+      "setting": 0,
+      "status": "0",
+      "elev": 1106
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        5,
+        5
+      ],
+      "geographic": [
+        -120.29586163809407,
+        37.81089054842811
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_AB_head_valve_001",
+      "size": 96,
+      "type": "butterfly",
+      "setting": 0,
+      "status": "1",
+      "elev": 2138
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        21,
+        7
+      ],
+      "geographic": [
+        -120.28427612589807,
+        37.812922793989195
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_CD_head_valve_001",
+      "size": 96,
+      "type": "butterfly",
+      "setting": 0,
+      "status": "1",
+      "elev": 2138
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        21,
+        3
+      ],
+      "geographic": [
+        -120.28432851218656,
+        37.81286559752201
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "priest_inlet_sluice_002",
+      "size": 120,
+      "type": "sluice",
+      "setting": 0,
+      "status": "1",
+      "elev": 2150
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        26.5,
+        6
+      ],
+      "geographic": [
+        -120.26897686309651,
+        37.80335529962782
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "priest_inlet_sluice_001",
+      "size": 120,
+      "type": "sluice",
+      "setting": 0,
+      "status": "1",
+      "elev": 2160
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        25.5,
+        6
+      ],
+      "geographic": [
+        -120.2689464761061,
+        37.803335243395004
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_AB_foot_valve_001",
+      "size": 96,
+      "type": "butterfly",
+      "setting": 0,
+      "status": "1",
+      "elev": 1078
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        2.5,
+        7
+      ],
+      "geographic": [
+        -120.29617828404344,
+        37.81085981266462
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_CD_foot_valve_001",
+      "size": 96,
+      "type": "butterfly",
+      "setting": 0,
+      "status": "1",
+      "elev": 1075
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        2.5,
+        3
+      ],
+      "geographic": [
+        -120.29623505220638,
+        37.810789955581384
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "mocc_ph_turbine_1_inlet",
+      "size": 96,
+      "type": "butterfly",
+      "setting": 0,
+      "status": "1",
+      "elev": 920
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        1,
+        5.5
+      ],
+      "geographic": [
+        -120.29926474228944,
+        37.80938728835313
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "mocc_ph_turbine_2_inlet",
+      "size": 96,
+      "type": "butterfly",
+      "setting": 0,
+      "status": "1",
+      "elev": 920
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        1,
+        4.5
+      ],
+      "geographic": [
+        -120.29923496477284,
+        37.80930828619523
+      ]
+    }
+  }
+]

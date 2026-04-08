@@ -1,0 +1,161 @@
+/* ── 3D schematic panel chrome ───────────────── */
+.three-d-container {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: #f0f2f5;
+}
+
+.three-d-container canvas {
+    outline: none;
+}
+
+/* ── Overlay controls (bottom-center) ─────────── */
+.overlay-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18), 0 0 0 1px rgba(0, 0, 0, 0.06);
+    padding: 6px;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    font-size: 0.65rem;
+    color: #475569;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    user-select: none;
+    height: 96px;
+    box-sizing: border-box;
+}
+
+.overlay-controls-title {
+    display: none;
+}
+
+.overlay-slider-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.overlay-section-label {
+    font-weight: 700;
+    font-size: 0.65rem;
+    color: #475569;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.overlay-slider-row input[type="range"] {
+    flex: 1;
+    min-width: 0;
+    height: 4px;
+    accent-color: #3b82f6;
+    cursor: pointer;
+}
+
+.overlay-slider-pct {
+    min-width: 24px;
+    text-align: right;
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: #475569;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.04em;
+}
+
+.overlay-color-swatch {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+/* ── 3D popup overlay ───────────────────────── */
+.three-d-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.three-d-popup-wrapper {
+    position: relative;
+    pointer-events: auto;
+    min-width: 310px;
+    background: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.22), 0 0 0 1px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    overflow: hidden;
+}
+
+.three-d-popup-close {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #94a3b8;
+    cursor: pointer;
+    padding: 2px 4px;
+    z-index: 10;
+}
+
+.three-d-popup-close:hover {
+    color: #334155;
+}
+
+/* ── Face-on rotate CW / CCW buttons ──────────── */
+.face-rotate-controls {
+    position: absolute;
+    top: 100px;
+    left: 19px;
+    z-index: 100;
+    display: flex;
+    gap: 6px;
+    user-select: none;
+}
+
+.face-rotate-btn {
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.face-rotate-btn:hover:not(:disabled) {
+    background: #f4f4f4;
+}
+
+.face-rotate-btn:disabled {
+    opacity: 0.35;
+    cursor: default;
+}

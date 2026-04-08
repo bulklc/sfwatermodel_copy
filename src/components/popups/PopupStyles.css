@@ -1,0 +1,326 @@
+.popup-container {
+    width: 310px;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    font-size: 13px;
+    color: #333;
+}
+
+/* Prevent Leaflet from recalculating popup layout on content changes */
+.styled-popup .leaflet-popup-content-wrapper {
+    width: 330px !important;
+}
+
+.styled-popup .leaflet-popup-content {
+    width: 310px !important;
+    margin: 10px;
+}
+
+/* ── Flipped popup (opens downward) ─────────────── */
+/* The tip container is flipped so the triangle points upward */
+.leaflet-popup--below .leaflet-popup-tip-container {
+    top: 0;
+    margin-top: -20px;
+    transform: rotate(180deg);
+}
+
+.popup-header {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a1a2e;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #1f78b4;
+    word-break: break-word;
+    text-align: center;
+}
+
+.popup-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 4px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.popup-row:last-child {
+    border-bottom: none;
+}
+
+.popup-divider {
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
+
+.popup-label {
+    font-weight: 600;
+    color: #555;
+    margin-right: 12px;
+    white-space: nowrap;
+}
+
+.popup-value {
+    text-align: right;
+    color: #222;
+    font-weight: 500;
+}
+
+.popup-badge {
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.popup-badge--open {
+    background: #d4edda;
+    color: #155724;
+}
+
+.popup-badge--closed {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.popup-section-header {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1f78b4;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-top: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-top: 1px solid #ddd;
+}
+
+/* ── Valve interactive controls ───────────────── */
+
+.valve-control-group {
+    padding: 6px 0;
+}
+
+.valve-control-group:last-child {
+    border-bottom: none;
+}
+
+.valve-control-label {
+    font-weight: 600;
+    color: #555;
+    font-size: 12px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.valve-toggle {
+    display: flex;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.valve-toggle-btn {
+    flex: 1;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    border: none;
+    background: #f5f5f5;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-align: center;
+}
+
+.valve-toggle-btn:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+
+.valve-toggle-btn--active {
+    background: #1f78b4;
+    color: #fff;
+}
+
+.valve-toggle-btn:hover:not(.valve-toggle-btn--active) {
+    background: #e8e8e8;
+}
+
+.valve-slider-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+    max-width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.valve-slider-row.elev-slider-row {
+    max-width: none;
+}
+
+.valve-slider {
+    flex: 1;
+    height: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #ddd;
+    border-radius: 3px;
+    outline: none;
+}
+
+.valve-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background: #1f78b4;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.valve-slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    background: #1f78b4;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.valve-slider-value {
+    min-width: 48px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    font-variant-numeric: tabular-nums;
+}
+
+/* ── Three-way slide switch ───────────────────── */
+
+.tri-switch {
+    user-select: none;
+    max-width: 210px;
+    margin: 0 auto;
+}
+
+.tri-switch-track {
+    position: relative;
+    height: 24px;
+    background: #e0e0e0;
+    border-radius: 12px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.tri-switch-thumb {
+    position: absolute;
+    top: 2px;
+    width: calc(33.333% - 2px);
+    height: 20px;
+    background: #1f78b4;
+    border-radius: 10px;
+    transition: left 0.2s ease;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    pointer-events: none;
+}
+
+.tri-switch-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+
+.tri-switch-label {
+    flex: 1;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.15s ease;
+    line-height: 1.3;
+}
+
+.tri-switch-label--active {
+    color: #1f78b4;
+}
+
+/* Two-slot variant (gate / sluice) */
+
+.tri-switch-track--two {
+    /* same as base track but no override needed beyond thumb width */
+}
+
+.tri-switch-thumb--two {
+    width: calc(50% - 2px);
+}
+
+/* ── Slider +/− step buttons ─────────────────── */
+
+.valve-step-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f5f5f5;
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+    flex-shrink: 0;
+    user-select: none;
+    transition: background 0.12s;
+}
+
+.valve-step-btn:hover {
+    background: #e0e0e0;
+}
+
+.valve-step-btn:active {
+    background: #ccc;
+}
+
+/* ── Editable elevation value ─────────────────── */
+
+.editable-value {
+    cursor: pointer;
+    border-bottom: 1px dashed #999;
+    padding-bottom: 1px;
+    transition: color 0.15s, border-color 0.15s;
+}
+
+.editable-value:hover {
+    color: #1f78b4;
+    border-color: #1f78b4;
+}
+
+.elev-input {
+    width: 80px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: inherit;
+    text-align: right;
+    padding: 1px 4px;
+    border: 1px solid #1f78b4;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(31, 120, 180, 0.18);
+    font-variant-numeric: tabular-nums;
+    -moz-appearance: textfield;
+}
+
+.elev-input::-webkit-inner-spin-button,
+.elev-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

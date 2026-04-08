@@ -1,0 +1,1005 @@
+[
+  {
+    "properties": {
+      "name": "penstock_AB_head_001",
+      "elev": 2111
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        20,
+        7
+      ],
+      "geographic": [
+        -120.28478700666267,
+        37.81316692475342
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_CD_head_001",
+      "elev": 2111
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        20,
+        3
+      ],
+      "geographic": [
+        -120.28480845822648,
+        37.81313551072361
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_AB_head_002",
+      "elev": 2071
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        19,
+        7
+      ],
+      "geographic": [
+        -120.28549033502075,
+        37.8134520048031
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_CD_head_002",
+      "elev": 2071
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        19,
+        3
+      ],
+      "geographic": [
+        -120.28551038645863,
+        37.81342094240402
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_AB_head_003",
+      "elev": 2068
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        18,
+        7
+      ],
+      "geographic": [
+        -120.28600817617429,
+        37.813661900629455
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_CD_head_003",
+      "elev": 2068
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        18,
+        3
+      ],
+      "geographic": [
+        -120.28601654751628,
+        37.81362676675184
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_AB_head_004",
+      "elev": 2052
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        17,
+        7
+      ],
+      "geographic": [
+        -120.2881216784203,
+        37.81357695928493
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_CD_head_004",
+      "elev": 2052
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        17,
+        3
+      ],
+      "geographic": [
+        -120.28812403286022,
+        37.81354223870721
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_AB_bifurcation",
+      "elev": 1933
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        15,
+        7
+      ],
+      "geographic": [
+        -120.28929863678205,
+        37.81364536704207
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_CD_bifurcation",
+      "elev": 1933
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        15,
+        3
+      ],
+      "geographic": [
+        -120.28926515141414,
+        37.81359204619755
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_A_001",
+      "elev": 1829
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        14,
+        8
+      ],
+      "geographic": [
+        -120.29000949954045,
+        37.813363843725156
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_001",
+      "elev": 1829
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        14,
+        6
+      ],
+      "geographic": [
+        -120.2899928593977,
+        37.81334013358949
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_001",
+      "elev": 1829
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        14,
+        4
+      ],
+      "geographic": [
+        -120.28997673348543,
+        37.8133156341539
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_D_001",
+      "elev": 1829
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        14,
+        2
+      ],
+      "geographic": [
+        -120.28996111094604,
+        37.81328925238537
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_A_002",
+      "elev": 1669
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        13,
+        8
+      ],
+      "geographic": [
+        -120.29093537413911,
+        37.812975325766395
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_002",
+      "elev": 1669
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        13,
+        6
+      ],
+      "geographic": [
+        -120.29091899116126,
+        37.81295137767451
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_002",
+      "elev": 1669
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        13,
+        4
+      ],
+      "geographic": [
+        -120.29090349109833,
+        37.81292657705336
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_D_002",
+      "elev": 1669
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        13,
+        2
+      ],
+      "geographic": [
+        -120.29088657571431,
+        37.81290011174604
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_003",
+      "elev": 1549
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        12,
+        6
+      ],
+      "geographic": [
+        -120.29183866053712,
+        37.81257648536532
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_A_003",
+      "elev": 1549
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        12,
+        8
+      ],
+      "geographic": [
+        -120.29185451213098,
+        37.81259692337054
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_003",
+      "elev": 1549
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        12,
+        4
+      ],
+      "geographic": [
+        -120.29182364280743,
+        37.81255269537804
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_D_003",
+      "elev": 1549
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        12,
+        2
+      ],
+      "geographic": [
+        -120.29180753778427,
+        37.81252757169643
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_A_004",
+      "elev": 1454
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        11,
+        8
+      ],
+      "geographic": [
+        -120.29232696974414,
+        37.81239438374845
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_004",
+      "elev": 1454
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        11,
+        6
+      ],
+      "geographic": [
+        -120.29230839582911,
+        37.81236813622615
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_004",
+      "elev": 1454
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        11,
+        4
+      ],
+      "geographic": [
+        -120.2922913915407,
+        37.81234416210314
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_D_004",
+      "elev": 1454
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        11,
+        2
+      ],
+      "geographic": [
+        -120.29227778811,
+        37.81232163468734
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_A_005",
+      "elev": 1427
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        10,
+        8
+      ],
+      "geographic": [
+        -120.29320255979455,
+        37.81206287892318
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_005",
+      "elev": 1427
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        10,
+        6
+      ],
+      "geographic": [
+        -120.2931816314396,
+        37.81203642460865
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_005",
+      "elev": 1427
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        10,
+        4
+      ],
+      "geographic": [
+        -120.29316279592015,
+        37.812013690424536
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_D_005",
+      "elev": 1427
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        10,
+        2
+      ],
+      "geographic": [
+        -120.29314500681843,
+        37.81199136958241
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_A_006",
+      "elev": 1394
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        9,
+        8
+      ],
+      "geographic": [
+        -120.29351517709672,
+        37.811879971945366
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_006",
+      "elev": 1394
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        9,
+        6
+      ],
+      "geographic": [
+        -120.29349634157725,
+        37.81185661768846
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_006",
+      "elev": 1394
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        9,
+        4
+      ],
+      "geographic": [
+        -120.2934754132223,
+        37.811833676774036
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_D_006",
+      "elev": 1394
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        9,
+        2
+      ],
+      "geographic": [
+        -120.29345291524072,
+        37.81181052917749
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_A_007",
+      "elev": 1301
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        8,
+        8
+      ],
+      "geographic": [
+        -120.29407317936074,
+        37.81153999110481
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_007",
+      "elev": 1301
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        8,
+        6
+      ],
+      "geographic": [
+        -120.2940532974235,
+        37.811517050092
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_007",
+      "elev": 1301
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        8,
+        4
+      ],
+      "geographic": [
+        -120.29403236906857,
+        37.81149472909974
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_D_007",
+      "elev": 1301
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        8,
+        2
+      ],
+      "geographic": [
+        -120.2940085630648,
+        37.81147261477668
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_A_008",
+      "elev": 1174
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        7,
+        8
+      ],
+      "geographic": [
+        -120.29468638016094,
+        37.81116962721604
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_008",
+      "elev": 1174
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        7,
+        6
+      ],
+      "geographic": [
+        -120.29466886788549,
+        37.81114269360447
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_008",
+      "elev": 1174
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        7,
+        4
+      ],
+      "geographic": [
+        -120.29465135597373,
+        37.81111576054244
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_D_008",
+      "elev": 1174
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        7,
+        2
+      ],
+      "geographic": [
+        -120.29463574982509,
+        37.81109160291625
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_A_009",
+      "elev": 1136
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        6,
+        8
+      ],
+      "geographic": [
+        -120.29492025452757,
+        37.811113411106234
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_009",
+      "elev": 1136
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        6,
+        6
+      ],
+      "geographic": [
+        -120.29490958787314,
+        37.81108490469102
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_009",
+      "elev": 1136
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        6,
+        4
+      ],
+      "geographic": [
+        -120.29490026556492,
+        37.811059991004456
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_D_009",
+      "elev": 1136
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        6,
+        2
+      ],
+      "geographic": [
+        -120.29489027358854,
+        37.811033287633414
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_A_010",
+      "elev": 1101
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        4,
+        8
+      ],
+      "geographic": [
+        -120.29593004765414,
+        37.810920787934876
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_010",
+      "elev": 1101
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        4,
+        4
+      ],
+      "geographic": [
+        -120.2959091192992,
+        37.810866225056806
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_010",
+      "elev": 1101
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        4,
+        6
+      ],
+      "geographic": [
+        -120.29591906026779,
+        37.810894333211145
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_D_010",
+      "elev": 1101
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        4,
+        2
+      ],
+      "geographic": [
+        -120.2958986551217,
+        37.810838530247196
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_AB_collection",
+      "elev": 1079
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        3,
+        7
+      ],
+      "geographic": [
+        -120.29613825856448,
+        37.81086249947419
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_CD_collection",
+      "elev": 1074
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        3,
+        3
+      ],
+      "geographic": [
+        -120.29619162586975,
+        37.810791402326394
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_009.2",
+      "elev": 1106
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        5,
+        6
+      ],
+      "geographic": [
+        -120.29586664127892,
+        37.81090391788264
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_009.2",
+      "elev": 1106
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        5,
+        4
+      ],
+      "geographic": [
+        -120.29585663490921,
+        37.810877178971154
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "priest_inlet_001",
+      "elev": 2150
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        25,
+        5
+      ],
+      "geographic": [
+        -120.26899669365174,
+        37.80333742720791
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_B_009.1",
+      "elev": 1111
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        5.5,
+        6
+      ],
+      "geographic": [
+        -120.29582167223182,
+        37.81091323397721
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "penstock_C_009.1",
+      "elev": 1111
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        5.5,
+        4
+      ],
+      "geographic": [
+        -120.29581240162457,
+        37.81088690196553
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "main_penstock_bifurcation",
+      "elev": 2138
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        23,
+        5
+      ],
+      "geographic": [
+        -120.28407640145043,
+        37.812790484574734
+      ]
+    }
+  },
+  {
+    "properties": {
+      "name": "overflow",
+      "elev": 2138
+    },
+    "geometry": {
+      "type": "Point",
+      "schematic": [
+        24,
+        5
+      ],
+      "geographic": [
+        -120.28266507862682,
+        37.81197502358081
+      ]
+    }
+  }
+]

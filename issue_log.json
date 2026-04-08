@@ -1,0 +1,8 @@
+[
+  {
+    "issue": "There should be someway for the user to shift between the 4 view modes (2D-SCH, 2D-GEO, 3D-SCH, 3D-GEO) while still focused / zoomed in on a single element. For example, if they're zoomed in to a given node in 2D-GEO mode, they should be able to chose to shift into 2D-SCH mode, with the view zoomed into / centered on that same node, such that it looks like the node itself never actuall moved, just everythin else around it did. This would allow the user to easily shift between the different perspectives on the same element, without having to manually find and zoom into that element each time they switch modes. Please implement this functionality for all 4 view modes (so that the user can shift from any mode to any other mode while staying focused on the same element)."
+  },
+  {
+    "issue": ""
+  }
+]
